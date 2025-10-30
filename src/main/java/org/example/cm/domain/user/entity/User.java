@@ -1,5 +1,6 @@
 package org.example.cm.domain.user.entity;
 
+<<<<<<< HEAD
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;
@@ -59,4 +60,7 @@ public class User extends BaseEntity {
         this.provider = provider;
         this.role = role;
     }
+=======
+public class User {
+>>>>>>> 847b7e84545189f4e515306ea902692a677b0206
 }

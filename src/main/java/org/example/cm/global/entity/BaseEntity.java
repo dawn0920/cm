@@ -1,5 +1,6 @@
 package org.example.cm.global.entity;
 
+<<<<<<< HEAD
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
@@ -23,4 +24,7 @@ public abstract class BaseEntity {
     @LastModifiedDate
     @Column(nullable = false)
     private LocalDateTime modifiedAt;
+=======
+public class BaseEntity {
+>>>>>>> 847b7e84545189f4e515306ea902692a677b0206
 }
